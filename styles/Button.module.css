@@ -1,0 +1,19 @@
+.button {
+  background-color: var(--main-color-button);
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: filter 2s;
+  color: #fff;
+  box-shadow: 0 var(--main-color-button) 0 var(--main-color-button);
+}
+.buttonSecondary {
+  background-color: #fff;
+  color: var(--main-color-button);
+}
+.buttonPrincipal {
+  background-color: var(--main-color-button);
+}

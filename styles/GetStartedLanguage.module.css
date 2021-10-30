@@ -1,0 +1,19 @@
+.startedLanguage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-area: startedLanguage;
+  gap: 20px;
+  padding: 0 5rem;
+}
+.infosStartedLanguage {
+  align-self: center;
+}
+.titleStartedLanguage {
+  font-size: 2rem;
+  color: #656464;
+}
+.textStartedLanguage {
+  line-height: 23px;
+  margin: 2rem 0;
+  color: #504e4e;
+}

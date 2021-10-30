@@ -1,0 +1,11 @@
+.main {
+  display: grid;
+  grid-template-rows: 150px;
+  background-color: var(--main-color);
+  grid-template-areas:
+    "header header header"
+    "startedLanguage startedLanguage startedLanguage"
+    "characteristics characteristics characteristics"
+    "classroom classroom classroom"
+    "footer footer footer";
+}

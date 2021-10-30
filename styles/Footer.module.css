@@ -1,0 +1,9 @@
+.footer {
+  background-color: var(--secondary-background);
+  grid-area: footer;
+  padding: 1rem 0;
+}
+.containerList {
+  display: flex;
+  justify-content: center;
+}

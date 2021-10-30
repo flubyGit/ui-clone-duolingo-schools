@@ -1,0 +1,14 @@
+.container {
+  grid-area: classroom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 6rem;
+  background-color: var(--secondary-background);
+  border-bottom: 2px solid #ddd;
+}
+.title {
+  font-size: 2.2rem;
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+.characteristics {
+  grid-area: characteristics;
+  margin-top: 10rem;
+  background-color: #fff;
+}
+.characteristicsText {
+  line-height: 1.6rem;
+}
+.containerComplementsCurriculum {
+  margin-top: 10rem;
+}
+.containerTextComplementsCurriculum {
+  order: -1;
+}
+.container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  padding: 1rem 5rem;
+  margin: 2rem 0;
+}
+.secondContainer {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  padding: 1rem 0;
+}
+.containerPadding {
+  padding: 0 8.55rem;
+}
