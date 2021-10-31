@@ -9,6 +9,13 @@
   transition: filter 2s;
   color: #fff;
   box-shadow: 0 var(--main-color-button) 0 var(--main-color-button);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .buttonSecondary {
   background-color: #fff;
@@ -16,4 +23,7 @@
 }
 .buttonPrincipal {
   background-color: var(--main-color-button);
+}
+.buttonPrincipal:hover {
+  background-color: var(--secondary-background);
 }
